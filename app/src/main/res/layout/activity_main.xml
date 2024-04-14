@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="6"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <!--Pantalla de la calculadora-->
+        <EditText
+            android:id="@+id/display"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill"
+            android:gravity="end"
+            android:text="0"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:padding="16px"
+            android:textSize="12pt"
+            android:inputType="numberDecimal"
+            android:enabled="false"
+            />
+<!--        Fila 1-->
+        <Button
+            android:text="7"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="8"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="9"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="/"
+            android:backgroundTint="@color/uisek_purple"
+            />
+<!--        Fila 2-->
+        <Button
+            android:text="4"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="5"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="6"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="*"
+            android:backgroundTint="@color/uisek_purple"
+            />
+<!--        Fila 3-->
+        <Button
+            android:text="1"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="2"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="3"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="-"
+            android:backgroundTint="@color/uisek_purple"
+            />
+<!--        Fila 4-->
+        <Button
+            android:text="0"
+            android:backgroundTint="@color/uisek_blue"
+            />
+        <Button
+            android:text="-"
+            android:backgroundTint="@color/uisek_purple"
+            />
+        <Button
+            android:text="="
+            android:backgroundTint="@color/uisek_purple"
+            />
+        <Button
+            android:text="+"
+            android:backgroundTint="@color/uisek_purple"
+            />
+        <!--        Fila 5-->
+        <Button
+            android:text="C"
+            android:backgroundTint="@color/red"
+            />
+        <Button
+            android:text="CE"
+            android:backgroundTint="@color/red"
+            />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
