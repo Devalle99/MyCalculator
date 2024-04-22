@@ -34,78 +34,96 @@
             />
 <!--        Fila 1-->
         <Button
+            android:id="@+id/btn7"
             android:text="7"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btn8"
             android:text="8"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btn9"
             android:text="9"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btnDivision"
             android:text="/"
             android:backgroundTint="@color/uisek_purple"
             />
 <!--        Fila 2-->
         <Button
+            android:id="@+id/btn4"
             android:text="4"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btn5"
             android:text="5"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btn6"
             android:text="6"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btnMultiplication"
             android:text="*"
             android:backgroundTint="@color/uisek_purple"
             />
 <!--        Fila 3-->
         <Button
+            android:id="@+id/btn1"
             android:text="1"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btn2"
             android:text="2"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btn3"
             android:text="3"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
+            android:id="@+id/btnMinus"
             android:text="-"
             android:backgroundTint="@color/uisek_purple"
             />
 <!--        Fila 4-->
         <Button
+            android:id="@+id/btn0"
             android:text="0"
             android:backgroundTint="@color/uisek_blue"
             />
         <Button
-            android:text="-"
+            android:id="@+id/btnDecimal"
+            android:text="."
             android:backgroundTint="@color/uisek_purple"
             />
         <Button
+            android:id="@+id/btnEquals"
             android:text="="
             android:backgroundTint="@color/uisek_purple"
             />
         <Button
+            android:id="@+id/btnPlus"
             android:text="+"
             android:backgroundTint="@color/uisek_purple"
             />
         <!--        Fila 5-->
         <Button
+            android:id="@+id/btnClear"
             android:text="C"
             android:backgroundTint="@color/red"
             />
         <Button
+            android:id="@+id/btnClearEntry"
             android:text="CE"
             android:backgroundTint="@color/red"
             />
